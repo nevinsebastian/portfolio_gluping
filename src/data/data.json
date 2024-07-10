@@ -82,7 +82,7 @@
       "text": "Developing custom software to meet your business needs."
     },
     {
-      "icon": "fa fa-brain",
+      "icon": "fa fa-code",
       "name": "Machine Learning & AI",
       "text": "Implementing advanced ML and AI solutions to solve complex problems."
     },
@@ -99,35 +99,21 @@
   ],
   "Testimonials": [
     {
-      "img": "img/testimonials/01.jpg",
-      "text": "\"Gluping's web development services exceeded our expectations! Their expertise and dedication are unmatched.\"",
-      "name": "Client A"
+      "img": "img/testimonials/abijith.jpg",
+      "text": "\"Gluping's web development services exceeded our expectations! Their expertise and dedication are unmatched. They developed a Uniform Detection Attendance System, a web app for our college project, which worked flawlessly.\"",
+      "name": "Abijith C A"
     },
     {
-      "img": "img/testimonials/02.jpg",
-      "text": "\"The app Gluping developed for us has transformed our business. Highly recommend their services.\"",
-      "name": "Client B"
+      "img": "img/testimonials/hafiz.jpeg",
+      "text": "\"The app Gluping developed for us has transformed our business. Highly recommend their services. They created a Pollution Detection System using ML and Raspberry Pi that has been incredibly effective.\"",
+      "name": "Hafiz"
     },
     {
-      "img": "img/testimonials/03.jpg",
-      "text": "\"Gluping's AI solutions helped us optimize our operations and achieve better results.\"",
-      "name": "Client C"
-    },
-    {
-      "img": "img/testimonials/04.jpg",
-      "text": "\"Their custom software solutions are tailored to our needs and have significantly improved our efficiency.\"",
-      "name": "Client D"
-    },
-    {
-      "img": "img/testimonials/05.jpg",
-      "text": "\"The team at Gluping is highly professional and skilled. We are thrilled with the results of our project.\"",
-      "name": "Client E"
-    },
-    {
-      "img": "img/testimonials/06.jpg",
-      "text": "\"Gluping's innovative approach and commitment to quality are evident in their work. We highly recommend them.\"",
-      "name": "Client F"
+      "img": "img/testimonials/hemanth.jpg",
+      "text": "\"Gluping's AI solutions helped us optimize our operations and achieve better results. They built PhisherX, an ML-based phishing detection web app, which has significantly enhanced our security.\"",
+      "name": "Hemanth C"
     }
+   
   ],
   "Team": [
     {
@@ -152,10 +138,10 @@
     }
   ],
   "Contact": {
-    "address": "4321 California St, San Francisco, CA 12345 ",
-    "phone": "+1 123 456 1234",
-    "email": "info@gluping.com",
-    "facebook": "fb.com/gluping",
+    "address": "Padinjaredath building, thaikattukara p.o, RA 113, Behind Ambattukavu Metro station,Metro pillar number 146, Aluva, 683106",
+    "phone": "+91 9567743699",
+    "email": "thegluping@gmail.com",
+    "facebook": "https://github.com/gluping/",
     "twitter": "twitter.com/gluping",
     "youtube": "youtube.com/gluping"
   },
@@ -166,10 +152,10 @@
       "text": "We maintain open and transparent communication with our clients."
     },
     {
-      "icon": "fa fa-bullhorn",
-      "title": "Marketing Solutions",
-      "text": "Effective marketing strategies to boost your business."
-    },
+      "icon": "fa fa-laptop",
+       "title": "ML & AI Solutions",
+    "text": "Implementing cutting-edge machine learning and artificial intelligence solutions to transform your business operations and drive innovation."
+  },
     {
       "icon": "fa fa-group",
       "title": "Team Collaboration",
