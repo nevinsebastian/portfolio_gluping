@@ -20,50 +20,43 @@
   },
   "Gallery": [
     {
-      "title": "Web Development Project",
-      "largeImage": "img/portfolio/01-large.jpg",
-      "smallImage": "img/portfolio/01-small.jpg"
+      "title": "Chilla Project",
+      "largeImage": "/img/works/chilla.jpg",
+      "smallImage": "/img/works/chilla.jpg"
     },
     {
-      "title": "App Development Project",
-      "largeImage": "img/portfolio/02-large.jpg",
-      "smallImage": "img/portfolio/02-small.jpg"
+      "title": "Phisherx Project",
+      "largeImage": "/img/works/phisherx.png",
+      "smallImage": "/img/works/phisherx.png"
     },
     {
-      "title": "Machine Learning Project",
-      "largeImage": "img/portfolio/03-large.jpg",
-      "smallImage": "img/portfolio/03-small.jpg"
+      "title": "Gym Project",
+      "largeImage": "/img/works/gym.png",
+      "smallImage": "/img/works/gym.png"
     },
     {
-      "title": "AI Development Project",
-      "largeImage": "img/portfolio/04-large.jpg",
-      "smallImage": "img/portfolio/04-small.jpg"
+      "title": "Doha Project",
+      "largeImage": "/img/works/doha.jpeg",
+      "smallImage": "/img/works/doha.jpeg"
     },
     {
-      "title": "Custom Software Project",
-      "largeImage": "img/portfolio/05-large.jpg",
-      "smallImage": "img/portfolio/05-small.jpg"
+      "title": "Hogspot Project",
+      "largeImage": "/img/works/hogspot.jpeg",
+      "smallImage": "/img/works/hogspot.jpeg"
     },
     {
-      "title": "Mobile App Project",
-      "largeImage": "img/portfolio/06-large.jpg",
-      "smallImage": "img/portfolio/06-small.jpg"
+      "title": "Pollution Project",
+      "largeImage": "/img/pollution.jpg",
+      "smallImage": "/img/pollution.jpg",
+      "pdf": "/img/pollution.pdf"
     },
     {
-      "title": "Web Application Project",
-      "largeImage": "img/portfolio/07-large.jpg",
-      "smallImage": "img/portfolio/07-small.jpg"
-    },
-    {
-      "title": "Data Science Project",
-      "largeImage": "img/portfolio/08-large.jpg",
-      "smallImage": "img/portfolio/08-small.jpg"
-    },
-    {
-      "title": "AI Integration Project",
-      "largeImage": "img/portfolio/09-large.jpg",
-      "smallImage": "img/portfolio/09-small.jpg"
+      "title": "Attendance Project",
+      "largeImage": "/img/attendance.jpg",
+      "smallImage": "/img/attendance.jpg",
+      "pdf": "/img/attandance.pdf"
     }
+    
   ],
   "Services": [
     {

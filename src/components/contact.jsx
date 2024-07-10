@@ -26,7 +26,7 @@ export const Contact = (props) => {
         "service_uazl3ey", // Replace with your Service ID
         "template_6x9g4sm", // Replace with your Template ID
         e.target,
-        "Qu4JIVX-UhKBE-Y1gpqHM" // Replace with your actual User ID (Public Key)
+        "IHy5qfzzhCMP-PbG1" // Replace with your actual User ID (Public Key)
       )
       .then(
         (result) => {
