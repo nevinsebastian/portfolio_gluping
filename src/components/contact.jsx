@@ -1,12 +1,12 @@
 import { useState } from "react";
 import emailjs from "emailjs-com";
-import React from "react";
 
 const initialState = {
   name: "",
   email: "",
   message: "",
 };
+
 export const Contact = (props) => {
   const [{ name, email, message }, setState] = useState(initialState);
 
@@ -14,17 +14,20 @@ export const Contact = (props) => {
     const { name, value } = e.target;
     setState((prevState) => ({ ...prevState, [name]: value }));
   };
+
   const clearState = () => setState({ ...initialState });
-  
-  
+
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log(name, email, message);
-    
-    {/* replace below with your own Service ID, Template ID and Public Key from your EmailJS account */ }
-    
+
     emailjs
-      .sendForm("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", e.target, "YOUR_PUBLIC_KEY")
+      .sendForm(
+        "service_uazl3ey", // Replace with your Service ID
+        "template_6x9g4sm", // Replace with your Template ID
+        e.target,
+        "Qu4JIVX-UhKBE-Y1gpqHM" // Replace with your actual User ID (Public Key)
+      )
       .then(
         (result) => {
           console.log(result.text);
@@ -35,6 +38,7 @@ export const Contact = (props) => {
         }
       );
   };
+
   return (
     <div>
       <div id="contact">
@@ -104,7 +108,7 @@ export const Contact = (props) => {
               <p>
                 <span>
                   <i className="fa fa-map-marker"></i> Address
-                </span>
+                </span>{" "}
                 {props.data ? props.data.address : "loading"}
               </p>
             </div>
@@ -134,8 +138,7 @@ export const Contact = (props) => {
                       <i className="fa fa-github"></i>
                     </a>
                   </li>
-                  
-                  
+                  {/* Add other social media icons as needed */}
                 </ul>
               </div>
             </div>
@@ -145,10 +148,8 @@ export const Contact = (props) => {
       <div id="footer">
         <div className="container text-center">
           <p>
-            &copy; 2023 Issaaf Kattan React Land Page Template. Design by{" "}
-            <a href="http://www.templatewire.com" rel="nofollow">
-              TemplateWire
-            </a>
+            &copy; 2024 Design by Gluping 
+            
           </p>
         </div>
       </div>
